@@ -33,7 +33,7 @@ const Navbar = () => {
             <NavLink
               to="/"
               className={({ isActive }) =>
-                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center flex-shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
+                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
               }
             >
               <svg
@@ -56,7 +56,7 @@ const Navbar = () => {
             <NavLink
               to="notes"
               className={({ isActive }) =>
-                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center flex-shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
+                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
               }
             >
               <svg
@@ -78,7 +78,7 @@ const Navbar = () => {
             <NavLink
               to="about"
               className={({ isActive }) =>
-                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center flex-shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
+                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
               }
             >
               <svg
@@ -98,7 +98,7 @@ const Navbar = () => {
             <NavLink
               to="contact"
               className={({ isActive }) =>
-                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center flex-shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
+                `${isActive ? "border border-b-0 rounded-t-lg" : "border-b"} flex items-center shrink-0 px-5 py-3 space-x-2 dark:border-gray-600 dark:text-gray-900`
               }
             >
               <svg
