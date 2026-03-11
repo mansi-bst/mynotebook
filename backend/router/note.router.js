@@ -9,7 +9,7 @@ router.post('/create', verifyAuth, upload.single('image'), async (req, res) => {
 
     const { title, description, tag, isPrivate } = req.body
     const file = req.file;
-
+    
 
     try {
         console.log(file)
